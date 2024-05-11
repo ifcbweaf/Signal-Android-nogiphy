@@ -22,7 +22,7 @@ public class ContentProxySelector extends ProxySelector {
 
   public static final Set<String> WHITELISTED_DOMAINS = new HashSet<>();
   static {
-    WHITELISTED_DOMAINS.add("giphy.com");
+    WHITELISTED_DOMAINS.add("example.com");
   }
 
   private final List<Proxy> CONTENT = new ArrayList<Proxy>(1) {{
